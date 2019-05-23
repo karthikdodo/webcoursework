@@ -1,0 +1,31 @@
+{
+  "name": "United States",
+  "parent":"US",
+  "children": [
+    {
+      "name": "University of Missouri System",
+      "parent": "US",
+
+    },
+    {
+      "name": "Princeton University",
+      "parent": "US",
+
+    },
+    {
+      "name": "Harvard University",
+      "parent": "US",
+
+    },
+    {
+      "name": "University of Chicago",
+      "parent": "US",
+
+    },
+    {
+      "name": "Yale University",
+      "parent": "US",
+
+    }
+  ]
+}

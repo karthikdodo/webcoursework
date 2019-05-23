@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="500dp"
+    android:layout_height="600dp"
+    tools:context=".MainActivity"
+    android:background="@drawable/kar"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp">
+
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button2"
+        android:layout_width="214dp"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <Button
+        android:id="@+id/main_btn_photo"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="110dp"
+        android:onClick="onPhotoClick"
+        android:text="Camera" />
+
+    <Button
+        android:id="@+id/news"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/main_btn_photo"
+        android:layout_marginTop="189dp"
+        android:onClick="getNews"
+        android:text="Latest News" />
+
+    <Button
+        android:id="@+id/pressure_sensor"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/main_btn_photo"
+        android:layout_centerVertical="true"
+        android:onClick="Pressure"
+        android:text="Pressure Sensor" />
+</RelativeLayout>

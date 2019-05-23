@@ -1,0 +1,51 @@
+html, body {
+    height:100%;
+    margin: 0;
+}
+
+p {
+    font-size: 15px;
+}
+
+.alert {
+    margin-top: 2%;
+    visibility: hidden;
+    display: none;
+}
+
+.top-buffer {
+    margin-top: 50px;
+}
+
+.panel {
+    background-color: crimson;
+}
+
+body {
+    background: url('Twitter-1.png');
+}
+
+#home {
+    width: 20%;
+}
+
+button {
+    color: aqua;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+}
+
+.bar {
+    fill: orangered;
+}
+
+.bar:hover {
+    fill: yellow;
+}
+
+.axis--x path {
+    display: none;
+}
